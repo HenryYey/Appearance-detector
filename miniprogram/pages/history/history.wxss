@@ -1,0 +1,33 @@
+/* pages/history/histroy.wxss */
+.list {
+  padding:20rpx;
+  margin:25rpx;
+  width:700rpx;
+  height: 200rpx;
+  border: 1rpx solid #202020;
+  line-height: 70rpx;
+}
+.img {
+  margin-right: 40rpx;
+  height: 200rpx;
+  width:150rpx;
+  float: left;
+}
+.text-time {
+  color: rgb(76, 94, 110);
+  display: block;
+}
+.text-type {
+  display: block;
+}
+.text-result {
+  display: block;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}

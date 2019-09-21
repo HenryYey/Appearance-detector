@@ -1,0 +1,53 @@
+/**index.wxss**/
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(106, 208, 255, 0.253);
+}
+.title {
+  font-size: 26px;
+  display: block;
+  margin: 50rpx 0;
+}
+.box {
+  width: 750rpx;
+}
+.puple {
+  background-color: rgba(165, 96, 255, 0.479);
+}
+.blue {
+  background-color: rgba(127, 214, 255, 0.726);
+}
+
+.yellow {
+  background-color: rgba(255, 236, 68, 0.753);
+}
+
+.green {
+  background-color: rgba(0, 255, 115, 0.753);
+}
+.box_img{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: inline-flex;
+  margin: 50rpx;
+  width:275rpx;
+  height:200rpx;
+  border-radius: 24rpx;
+}
+.logo {
+  width: 100%;
+}
+.icon {
+  display: block;
+  margin-bottom: 5rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.ai {
+  width: 150rpx;
+}

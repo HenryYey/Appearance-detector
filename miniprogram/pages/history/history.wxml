@@ -1,0 +1,26 @@
+<view class='container'>
+  <text>历史记录</text>
+  <view wx:for='{{list}}'  
+    wx:for-item="item" 
+    wx:key='index' 
+    class='list' 
+    bindtap='goto' 
+    wx:key="*this" 
+    data-fileID="{{item.fileID}}"
+    data-fileID_two="{{item.fileID_two}}"
+    data-base64="{{item.base64}}"
+    data-base64_two="{{item.base64_two}}"
+    data-type="{{item.type}}">
+    <image src='{{item.fileID}}'
+      bindtap='goto' 
+      data-fileID="{{item.fileID}}"
+      data-fileID_two="{{item.fileID_two}}"
+      data-base64="{{item.base64}}"
+      data-base64_two="{{item.base64_two}}"
+      data-type="{{item.type}}" 
+      class='img'/>
+    <text class='text-time'>{{item.time}}</text>
+    <text class='text-type'>{{item.type}}</text>
+    <text class='text-result'> {{item.result}}</text>
+  </view>
+</view>

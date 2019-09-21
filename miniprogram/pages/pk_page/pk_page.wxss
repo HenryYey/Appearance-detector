@@ -1,0 +1,52 @@
+.img-add{
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  margin: -175rpx 0 100rpx 10rpx;
+}
+.double {
+  margin: -175rpx  120rpx 100rpx;
+}
+.middle-box {
+  margin: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.middle-text {
+
+}
+.title {
+  margin-top: 30rpx;
+}
+.img-touxiang {
+  width: 280rpx;
+  height: 250rpx;
+}
+.img-logo {
+  width:100%;
+  height:600rpx;
+  opacity: 0.2;
+  position: absolute;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 50rpx;
+}
+.two {
+  margin: 0 30rpx;
+}
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.play {
+  background-color: rgb(20, 238, 93);
+  width: 200rpx;
+  margin-top: 200rpx;
+}

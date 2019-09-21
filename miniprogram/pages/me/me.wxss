@@ -1,0 +1,45 @@
+
+.box {
+  width: 750rpx;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350rpx;
+}
+
+.touxiang {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 150rpx;
+  box-shadow: 1rpx 2rpx 2rpx 1rpx rgb(121, 121, 121);
+}
+
+.login-button {
+  background-color: rgb(53, 250, 70);
+}
+.nickname {
+  max-width: 750rpx;
+}
+td {
+  display: flex;
+  border-bottom: 1rpx solid rgb(194, 194, 194);
+  align-items: center;
+  line-height: 100rpx;
+}
+
+.icon {
+  margin:0 20rpx 0 50rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.filled {
+  background-color: rgb(233, 233, 233);
+  width: 750rpx;
+  height: 80rpx;
+}

@@ -1,0 +1,24 @@
+<view class= 'container'>
+  <text>{{title}}</text>
+  <view class='box'>
+    <image src='{{myImg}}' class='img'  />
+    <image src='{{otherImg}}' class='img' wx:if="{{type === 'star'}}" />
+  </view>
+  <view wx:if = "{{type === 'judge'}}">
+    <view>年龄: {{result.age}}</view>
+    <view>性别:{{result.gender}}</view>
+    <view>情绪:{{result.emotion}}</view>
+    <view>表情:{{result.expression}}</view>
+    <view>脸型:{{result.shape}}</view>
+  </view>
+  <view wx:if = "{{type === 'score'}}">
+    <view>评分:{{result.beauty}}</view>
+  </view>
+  <view wx:if = "{{type === 'pk'}}">
+    获胜！
+  </view>
+  <view wx:if = "{{type === 'star'}}">
+
+  </view>
+  <button class='return-box' bindtap ='returnHome'>回到首页</button>
+</view>

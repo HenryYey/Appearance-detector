@@ -1,0 +1,59 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"appid": "wx33640eb8e7614536",
+	"projectname": "face%20analysis",
+	"libVersion": "2.8.0",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "me",
+					"pathName": "pages/me/me",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "result",
+					"pathName": "pages/pk_result/pk_result",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "upload",
+					"pathName": "pages/pk_page/pk_page",
+					"scene": null
+				}
+			]
+		}
+	}
+}

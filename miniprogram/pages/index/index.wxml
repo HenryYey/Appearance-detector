@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class='container'>
+  <image src='/images/logo.jpg' class='logo'></image>
+  <block>
+    <text class="title">{{title}}</text>
+  </block>
+  <view calss="box">
+    <view class='box_img green' data-type="1" bindtap='navigationTo'>
+      <image src="../../images/score.png" class="icon"></image>
+      <view>
+        <text>颜值评分</text>
+      </view>
+    </view>
+    <view class='box_img blue' data-type="2" bindtap='navigationTo'>
+      <image src="../../images/ai.png" class="icon"></image>
+      <view>
+        <text>人脸分析</text>
+      </view>
+    </view>
+    <view class='box_img yellow' data-type="3" bindtap='navigationTo'>
+      <image src="../../images/star.png" class="icon"></image>
+      <view>
+        <text>测明星相</text>
+      </view>
+    </view>
+    <view class='box_img puple' data-type="4" bindtap='navigationTo'>
+      <image src="../../images/twopeople.png" class="ai icon"></image>
+      <view>
+        <text>颜值PK</text>
+      </view>
+    </view>
+  </view>
+</view>

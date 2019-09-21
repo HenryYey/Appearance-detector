@@ -1,0 +1,25 @@
+<view class='container'>
+  <text class='title'>{{title}}</text>
+  <image src='{{logo}}' class="img-logo" />
+  <view wx:if="{{type === '4'}}" class="middle-box">
+    <view class="group">
+      <image src='{{postImg}}' class="img-touxiang two"></image>
+      <image src='{{postImg_two}}' class="img-touxiang two"></image>
+    </view>
+    <view class="group">
+      <image src='/images/addition_fill.png' class="img-add double" data-num="1" bindtap='chooseImg'></image>
+      <image src='/images/addition_fill.png' class="img-add double" data-num="2"  bindtap='chooseImg'></image>
+    </view>
+    <view class='middle-text' bindtap='chooseImg'>
+      <text>添加照片</text>
+    </view>
+  </view>
+  <view class="middle-box" wx:else>
+    <image src='{{postImg}}' class="img-touxiang" ></image>
+    <image src='/images/addition_fill.png' class="img-add" data-num="1" bindtap='chooseImg'></image>
+    <view class='middle-text' >
+      <text>添加照片</text>
+    </view>
+  </view>
+  <button class="play" bindtap="play">Play</button>
+</view>

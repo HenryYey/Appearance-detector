@@ -1,0 +1,20 @@
+.container {
+  height:100%;
+  width: 750rpx;
+  display: flex;
+}
+.img {
+  width:280rpx;
+  height: 300rpx;
+  padding: 150rpx 30rpx;
+}
+.box {
+  display: flex;
+}
+.return-box {
+  width:250rpx;
+  height:90rpx;
+  border-radius: 20rpx;
+  background-color: #0ebbff;
+  margin-top: 80rpx;
+}

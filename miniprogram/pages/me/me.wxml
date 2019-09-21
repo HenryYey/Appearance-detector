@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="box">
+    <view class="top" wx:if="{{!iflogin}}">
+      <button class='login-button' open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">授权登录</button>
+    </view>
+    <view wx:else class="top">
+      <image src='{{userInfo.avatarUrl}}' class='touxiang' />
+      <text class='nickname'>{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <view class="filled"></view>
+  <view class="box" wx:if="{{iflogin}}">
+    <tr>
+      <td bindtap="history">
+        <image src="../../images/info.png" class="icon" />
+        <view>历史记录</view>
+      </td>
+      <td>
+        <image src="../../images/info.png" class="icon" />
+        <view>关于我们</view>
+      </td>
+    </tr>
+  </view>
+</view>
